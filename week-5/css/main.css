@@ -2,4 +2,34 @@ body {
     color: blue;
 }
 
+/*change color of all paragraph and list items */
+P, li {
+    color: green;
+}
+
 /* This is a CSS Comment */
+
+/*target child elements */
+section h1 {
+    color: darkred;
+}
+
+/*style a class */
+.secondary-heading {
+    color: indigo;
+}
+
+/*style & ID */
+#main-section {
+    color:orange;
+    font-weight: bold;
+
+}
+
+a {
+    color:orchid;
+
+}
+a[herf="http:algonquincollege.com"] {
+    color: green;
+}
