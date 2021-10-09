@@ -5,3 +5,7 @@ body{
 
 /* change font and font size */
 
+/* Targeting multiple elements header and footer */
+h1, footer{
+    color:cornflowerblue;
+}
