@@ -1,11 +1,13 @@
 body{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Calibri;
     font-size: 18px;
 }
 
 /* change font and font size */
 
 /* Targeting multiple elements header and footer */
-h1, footer{
+h1,h2,h3,h4,footer{
     color:cornflowerblue;
 }
+
+/* site title */
