@@ -30,3 +30,8 @@ li:before{
     color:black;
     margin-right: 15px;
 }
+/* nth clild to add color background to hobby list */
+li:nth-last-child(odd){
+    background-color: lightgreen;
+
+}
