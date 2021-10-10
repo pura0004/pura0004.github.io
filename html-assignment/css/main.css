@@ -44,9 +44,6 @@ a:link{
     border-width: 2px;
     border-color: black;
 }
-a[herf="https://pura0004.github.io/html-assignment/notes.html"]{
-    color:darkslategray;
-}
 
 /* LVHA */
 a:link{
@@ -54,7 +51,7 @@ a:link{
 }
 
 a:visited{
-    color:brown;
+    color: lightslategray;
 }
 a:hover{
     color: black;
