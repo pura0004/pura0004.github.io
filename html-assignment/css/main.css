@@ -57,3 +57,8 @@ a:visited{
 a:hover{
     color: black;
 }
+
+footer { 
+    display: flex; 
+    justify-content: center; 
+  }
