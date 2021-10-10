@@ -8,6 +8,7 @@ body{
 /* Targeting multiple elements header and footer add background color */
 h1,h2,h3,h4,footer{
     background-color:cornflowerblue;
+    
 }
 
 /* class selector */
