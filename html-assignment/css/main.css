@@ -16,7 +16,17 @@ h1,h2,h3,h4,footer{
     color: white;
 }
 
-/* my-image */
+/* my-image shadow box */
 #my-image{
     box-shadow: 0 0 2px 1px black;
+}
+
+/* change bullet points to square in list */
+li{
+    list-style: none;
+}
+li:before{
+    content:"\25AA";
+    color:black;
+    margin-right: 15px;
 }
