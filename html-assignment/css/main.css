@@ -5,9 +5,14 @@ body{
 
 /* change font and font size */
 
-/* Targeting multiple elements header and footer */
+/* Targeting multiple elements header and footer add background color */
 h1,h2,h3,h4,footer{
-    color:cornflowerblue;
+    background-color:cornflowerblue;
 }
 
-/* site title */
+/* class selector */
+.c1{
+    font-size: 25px;
+    color: white;
+}
+
