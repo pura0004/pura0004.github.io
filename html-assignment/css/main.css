@@ -17,3 +17,6 @@ h1,h2,h3,h4,footer{
 }
 
 /* my-image */
+#my-image{
+    box-shadow: 0 0 2px 1px black;
+}
