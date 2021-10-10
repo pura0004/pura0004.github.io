@@ -35,3 +35,9 @@ li:nth-last-child(odd){
     background-color: lightgreen;
 
 }
+
+/* remove underline fron link */
+a:link{
+    text-decoration: none;
+    background-color: lightsalmon;
+}
