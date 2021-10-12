@@ -2,6 +2,8 @@ body{
     font-family: verdana,arial,sans-serif;
     font-size: 24px;
     line-height: 1.5;
+    background-color: #eee;
+    background-image: url("../images/white_brick_wall.png");
 }
 
 .bolded {
