@@ -4,6 +4,9 @@ body{
     line-height: 1.5;
     background-color: #eee;
     background-image: url("../images/white_brick_wall.png");
+    background-repeat: no-repeat;
+    background-position: 10px 20px;
+    background-size: 200px;
 }
 
 .bolded {
