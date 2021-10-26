@@ -1,3 +1,19 @@
+html{
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after{
+    box-sizing: inherit;
+  }
+  nav{
+      float: left;
+  }
+
+  nav ul li{
+      display: inline;
+      margin: 10px;
+  }
 .box{
     width: 200px;
     background-color: #369;
@@ -6,4 +22,34 @@
     padding: 10px;
     border: 5px solid brown;
     margin: 10px; 
+}
+/* center a box level element */
+/*.box {
+    margin: 0 auto;
+} */
+
+.box1 {
+    box-sizing: content-box;
+}
+
+.box{
+    box-sizing: border-box;
+}
+/* CSS Positioning */
+.stage{
+    height:500px;
+    background-color: grey;
+}
+
+.prop{
+    height: 100px;
+    width: 100px;
+    background-color: cyan;
+
+    /* add positioning values */
+    position: relative;
+    top:100px;
+    left: 10px;
+    position: absolute;
+    top: 0;
 }
