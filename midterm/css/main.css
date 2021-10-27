@@ -1,7 +1,17 @@
+body{
+    background: #A9D4CE;
+}
+
+.content{
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+}
 /* change font and font size */
 .center{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 70%;
 }
