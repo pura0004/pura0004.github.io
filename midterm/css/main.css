@@ -3,15 +3,6 @@ body{
 }
 
 .content{
-    max-width: 500px;
+    max-width: 1000px;
     margin: auto;
-    background: white;
-    padding: 10px;
-}
-/* change font and font size */
-.center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
 }
