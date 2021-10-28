@@ -1,18 +1,23 @@
-body{
-    background: #A9D4CE;
+/* Content Center */
+#center_everything{
+    width: 1000px;
+    border: 2px solid lightblue;
+    margin: 0px auto;
+    text-align: left;
 }
 
-/*Add content css */
-.content{
-    max-width: 1000px;
-    margin: auto;
+.lone-starfish-wide{
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+
 }
 
+    
 /* Add text Over */
 .textover {
     position: relative;
 }
-
 
 /* Position Caption */
 .textover figcaption{
@@ -25,25 +30,35 @@ body{
     font-size: 65px;
     color: white;
     text-align: center;
-    
+
 }
 
 /* Column css add  */
 
 .column {
     float: center;
-    width: 100%;
+    column-width: 100%;
     padding: 1%;
-    text-align: center;
-
-    
+    text-align: center; 
   }
-  
   .multicol {
-      column-count: 3;
-      column-gap: 15px;
-      column-rule: 2px double grey;
-      
-
+    column-count: 3;
+    column-gap: 10px;
+    column-rule: 1px solid grey;
   }
 
+/* Add second image little star */
+.lone-starfish{
+    margin: 150 auto;
+    width: 100%;
+    padding: 8px;
+}
+
+img {
+    float: left;
+    width: 120px;
+    padding: 0 10px 0 0;
+}
+.text{
+    text-align: right;
+}
