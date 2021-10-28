@@ -1,24 +1,61 @@
 /* body background */
 body{
     background: #A9D4CE;
-
 }
-/* center pg */
-#center_page{
+/* Content Center */
+#center_everything{
     width: 1000px;
-    border: 2px solid black;
+    border: 2px solid lightblue;
     margin: 0px auto;
     text-align: left;
     background: #D4E9E7;
-
 }
-/* image starfish */
 
 .lone-starfish-wide{
-    width: 100%;
-    height:100%;
+    max-width: 1000px;
+    vertical-align: left;
 
 }
 img{
     width: 100%;
+    height: auto;
 }
+
+/* Add text Over */
+.textover {
+    position: relative;
+}
+
+/* Position Caption */
+.textover figcaption{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 65px;
+    color: white;
+    text-align: center;
+
+}
+
+/* Column css add  */
+
+.column {
+    float: center;
+    column-width: 100%;
+    padding: 1%;
+    text-align: center; 
+  }
+  .multicol {
+    column-count: 3;
+    column-gap: 10px;
+    column-rule: 1px solid grey;
+}
+
+/* Small starfish resize */
+.lone-starfish{
+    width: 20%;
+}
+
