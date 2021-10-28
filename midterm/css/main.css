@@ -2,13 +2,13 @@ body{
     background: #A9D4CE;
 }
 
-
+/*Add content css */
 .content{
     max-width: 1000px;
     margin: auto;
 }
 
-
+/* Add text Over */
 .textover {
     position: relative;
 }
@@ -28,6 +28,22 @@ body{
     
 }
 
-/* Image text cosmetics */
+/* Column css add  */
 
+.column {
+    float: center;
+    width: 100%;
+    padding: 1%;
+    text-align: center;
+
+    
+  }
+  
+  .multicol {
+      column-count: 3;
+      column-gap: 15px;
+      column-rule: 2px double grey;
+      
+
+  }
 

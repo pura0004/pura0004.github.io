@@ -1,0 +1,31 @@
+body{
+    background: #A9D4CE;
+}
+
+
+.content-wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.textover {
+    position: relative;
+}
+
+
+/* Position Caption */
+.textover figcaption{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 65px;
+    color: white;
+    text-align: center;
+    
+}
+
+/* Image text cosmetics */
