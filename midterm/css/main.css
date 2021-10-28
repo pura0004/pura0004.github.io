@@ -1,19 +1,23 @@
+/* body background */
+body{
+    background: #A9D4CE;
+}
 /* Content Center */
 #center_everything{
     width: 1000px;
     border: 2px solid lightblue;
     margin: 0px auto;
     text-align: left;
+    background: #D4E9E7;
 }
 
 .lone-starfish-wide{
-    max-width: 100%;
-    max-height: 100%;
-    vertical-align: middle;
+    max-width: 1000px;
+    max-height: auto;
+    vertical-align: center;
 
 }
 
-    
 /* Add text Over */
 .textover {
     position: relative;
@@ -60,5 +64,5 @@ img {
     padding: 0 10px 0 0;
 }
 .text{
-    text-align: right;
+    text-align: left;
 }
