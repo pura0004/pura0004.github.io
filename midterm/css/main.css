@@ -13,8 +13,7 @@ body{
 
 .lone-starfish-wide{
     max-width: 1000px;
-    max-height: auto;
-    vertical-align: center;
+    vertical-align: left;
 
 }
 
@@ -53,16 +52,16 @@ body{
 
 /* Add second image little star */
 .lone-starfish{
-    margin: 150 auto;
+    margin: 150;
     width: 100%;
     padding: 8px;
 }
 
 img {
     float: left;
-    width: 120px;
+    width: 200px;
     padding: 0 10px 0 0;
 }
 .text{
-    text-align: left;
+    text-align: justify;
 }
