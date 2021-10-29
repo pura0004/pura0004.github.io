@@ -108,6 +108,12 @@ input[type=text], select, textarea {
     border-radius: 50%;
 
 }
+/* Footer Style*/
+footer{
+    display: flex;
+    justify-content: right;
+    margin: 20px;
+}
 
 
 
