@@ -102,10 +102,10 @@ input[type=text], select, textarea {
 
 .radiobuttons::after{
     content:"";
-    width: 20px;
-    height: 20px;
-    border: 5px solid black;
-    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    border: 2px solid gray;
+    border-radius: 10%;
 
 }
 /* Footer Style*/
