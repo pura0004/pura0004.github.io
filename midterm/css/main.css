@@ -26,8 +26,7 @@ h2,h3{
 
 .lone-starfish-wide{
     max-width: 100%;
-    vertical-align: left;
-
+    vertical-align: 100%;
 }
 img{
     width: 100%;
@@ -86,7 +85,7 @@ p{
 .container{
     width: 18%;
     margin: 5px;
-    box-align: left
+    box-align: left;
 }
 img{
     float: left;
