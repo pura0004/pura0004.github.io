@@ -7,10 +7,11 @@ body{
 #center_everything{
     width: 1000px;
     border: 2px solid lightblue;
-    margin: 0px auto;
+    margin: 0 auto;
     text-align: left;
     background: #D4E9E7;
 }
+
 
 .lone-starfish-wide{
     max-width: 1000px;
@@ -21,6 +22,7 @@ body{
 img{
     width: 100%;
     height: auto;
+    margin-bottom: 15px;
     
 }
 
@@ -31,13 +33,13 @@ img{
 
 /* Position Caption */
 .textover figcaption{
-    position: absolute;
-    bottom: 0;
+    position: relative;
+    bottom: 150px;
     left: 0;
     width: 100%;
-    padding: 80px;
+    padding: 0 auto;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    font-size: 65px;
+    font-size: 60px;
     color: white;
     text-align: center;
     
@@ -50,13 +52,15 @@ img{
     float: center;
     column-width: 100%;
     padding: 1%;
-    text-align: center; 
+    text-align: center;
   }
+
   .multicol {
     column-count: 3;
     column-gap: 10px;
     column-rule: 1px solid grey;
     clear: both;
+    margin-bottom: 25px;
 }
 
 /* Small starfish resize */
