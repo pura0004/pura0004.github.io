@@ -1,6 +1,7 @@
 /* body background */
 body{
     background: #A9D4CE;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 /* Content Center */
@@ -14,14 +15,14 @@ body{
 
 
 .lone-starfish-wide{
-    max-width: 1000px;
+    max-width: 100%;
     vertical-align: left;
-    
 
 }
 img{
     width: 100%;
-    height: auto;
+    height: 100%;
+    margin-bottom: 10px;
     
 }
 
@@ -112,7 +113,3 @@ footer{
     justify-content: right;
     margin: 25px;
 }
-
-
-
-
