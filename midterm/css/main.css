@@ -1,27 +1,28 @@
 /* body background */
 body{
-    background: #A9D4CE;
-    font-family: Arial, Helvetica, sans-serif;
+    background: #A9D4CE; /* background color added  */
+    font-family: Arial, Helvetica, sans-serif; /* Font Arial */
 
 }
 /* Content Center */
 #center_everything{
-    width: 1000px;
-    border: 2px solid lightblue;
+    width: 1000px; /*62.5em */
+    border: 2px solid lightblue; /* border style added to container  */
     margin: 0 auto;
     text-align: left;
-    background: #D4E9E7;
+    background: #D4E9E7; /* background color added in center content  */
 }
 
 /* Targeting multiple elements */
 h1,h2,h3{
     margin: 5px;
+    margin-bottom: 20px;
 }
 h2,h3{
     font-size: 25px;
 }
 
-
+/* Header image adjusted  */
 
 .lone-starfish-wide{
     max-width: 100%;
@@ -38,6 +39,8 @@ img{
 /* Paragrahp adjust css */
 p{
     margin: 5px;
+    margin-bottom: 50px
+
 }
 
 /* Add text Over */
