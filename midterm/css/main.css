@@ -1,7 +1,6 @@
-/* body background */
 body{
     background: #A9D4CE; /* background color added  */
-    font-family: Arial, Helvetica, sans-serif; /* Font Arial */
+    font-family: Arial, Helvetica, sans-serif; /* Font Family added */
 
 }
 /* Content Center */
@@ -123,9 +122,19 @@ input[type=text], select, textarea {
     margin-bottom: 10px;
 }
 
+/* Send button style*/
+.submit{
+    background-color: #D4E9E7;
+    text-align: center;
+    width: 60px;
+    height: 40px;
+
+}
+
 /* Footer Style*/
 footer{
     display: flex;
     justify-content: right;
     margin: 25px;
 }
+
