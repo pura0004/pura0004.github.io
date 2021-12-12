@@ -54,7 +54,7 @@ body {
 	margin: 0 auto;
 	font-family: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	}
-
+/* -----------h1 css style--------------*/
 h1 {
 	padding-top: 20px;
 	line-height: 1.5;
@@ -62,4 +62,168 @@ h1 {
 	font-weight: 700;
 	margin: 25px 0 25px 10px;
 }
+
+/* -----------h2 css style--------------*/
+h2 {
+	font-size: 2rem;
+	margin: 40px 0 15px 10px;
+	font-weight: 700;
+}
+
+/* -----------h3 css style--------------*/
+
+h3 {
+	font-size: 1.5rem;
+	margin: 25px 0 25px 10px;
+	font-weight: 700;
+}
+
+/* -----------h3 css style--------------*/
+h4 {
+	font-size: .8rem;
+	margin-left: 10px;
+	border-bottom: 2px solid #c78c06;
+	font-weight: 700;
+}
+
+
+/* ----------paragraph texts Lorem--------------*/
+p {
+	margin: 25px 0 0 10px;
+	font-size: .8rem;
+}
+
+.icon-right {
+	padding-left: 10px;
+}
+
+.button {
+	color:white;
+	background-color: black;
+	padding: 25px 25px;
+	border: none;
+	margin: 10px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+/* ----------Navigation 1--------------*/
+
+
+.logo {
+	background-color: #c78c06;
+}
+
+nav {
+	padding: 10px;
+	background-color: black;
+}
+
+
+
+nav li {
+	text-align: center;
+	padding:10px;
+	background-color: black;
+}
+
+/* ----------ul css--------------*/
+
+
+nav li a {
+	text-decoration: none;
+	color: #c78c06;
+	display: block;
+	padding:10px;
+}
+
+
+#home {
+	background-color: #c78c06;
+	color: black;
+}
+
+nav form {
+	background-color: black;
+	display:flex;
+
+}
+
+nav form input {
+	flex-grow: 1;
+}
+
+
+#searchbutton {
+	display: inline-block;
+	background-color: #222222;
+	border: 1px solid #c78c06;
+	color: #c78c06;
+	padding:5px;
+	}
+
+	.icon-zoom {
+		font-size: 1.5rem;
+	}
+
+
+/* ----------main banner css style--------------*/
+
+.banner {
+	background-image: url(../images/main-banner.jpg);
+	background-position: bottom center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 600px;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/* ----------transparent black background--------------*/
+
+.blackfade {
+	background-color: #00000088;
+	color: white;
+	
+
+}
+
+
+.blackfacd .button {
+	color: black;
+	background-color: #c78c06;
+}
+
+/* about us css add*/
+
+.about-us {
+	
+	background-color: #ffe6ac;
+	padding: 10px;
+}
+
+
+.about-us img {
+	width: 100%;
+}
+
+.about-us h2, .about-us p {
+	margin-left: 0px;
+}
+
+/* services css add*/
+.services div {
+	width:100%;
+	background-color: #ffe6ac;
+	margin:10px;
+}
+
+.services div img {
+	width:100%;
+}
+
+
+
 
