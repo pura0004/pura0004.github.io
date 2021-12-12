@@ -9,73 +9,388 @@
     <title>Welcome to Three Star Media</title><!--Title added-->
     <link href="css/main.css" rel="stylesheet"><!--Link Css to index.html-->
 </head>
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
 <body>
-    <main>
-       <!-- navigation -->
+  <main>
+    <!-- navigation added top -->
     <header>
-        <div class="field nav-grid">
-            <div class="nav-container">
-                <img src="images/logo.png" alt="logo">
-            </div>
-            <div class="nav-container">
-                <a href="#Home" class="menu">Home</a>
-            </div>
-            <div class="nav-container">
-                <a href="#About" class="menu">About&nbsp;Us</a>
-            </div>
-            <div class="nav-container">
-                <a href="#Services" class="menu">Services</a>
-            </div>
-            <div class="nav-container">
-                <a href="#Team" class="menu">Team</a>
-            </div>
-            <div class="nav-container">
-                <a href="#Contact" class="menu">Contact</a>
+
+      <div class="field nav-grid">
+
+        <div class="nav-container"><img src="images/logo.png" alt="logo"></div>
+
+        <div class="nav-container">
+
+          <a href="#Home" class="menu">Home</a>
+        </div>
+
+        <div class="nav-container">
+
+          <a href="#About" class="menu">About Us</a>
+        </div>
+
+        <div class="nav-container">
+
+          <a href="#Services" class="menu">Services</a>
+        </div>
+
+        <div class="nav-container">
+
+          <a href="#Team" class="menu">Team</a>
+        </div>
+
+        <div class="nav-container">
+
+          <a href="#Contact" class="menu">Contact</a>
+        </div>
+
+        <div class="nav-container">
+
+          <form action="send" class="form">
+
+            <input type="text" id="name" name="fullname" placeholder="Search" class="search-bar">
+          </form>
+
+        </div>
+
+      </div>
+
+    </header><!-- Banner section  and Text added -->
+
+    <section class="banner-container">
+
+      <div class="banner">
+
+        <h1>Welcome to Three Star Media</h1>
+
+        <p class="intro-text">Lorem ipsum dolor sit amet consectetur adipiscing elit. Magnam rerum voluptas nesciunt quam nostrum similique nihil laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto consequuntur!</p>
+        <button class="connect-with-us">Connect with us
+
+        </button>
+
+      </div><img src="images/main-banner.jpg" alt="meeting room" class="main-banner">
+
+    </section><!-- About us section added -->
+
+    <section class="about-us" id="About">
+
+      <div class="about-us-grid">
+
+        <div class="about-grid"><img src="images/about-us.jpg" alt="Common Area" class="common-area">
+        </div>
+        <div class="about-grid">
+
+          <h2 class="h2-about">About Us</h2>
+
+          <p class="about-us-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero unde repellendus exercitationem asperiores ducimus placeat, maxime soluta nesciunt pariatur aliquam consequuntur sequi saepe sint praesentium laboriosam perferendis eius amet ad?</p>
+
+
+          <p class="about-us-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Animi, velit ipsam? Atque accusamus, excepturi corrupti sunt reiciendis soluta quo commodi guidem, non perferendis vel sed facilis rerum cum in exercitationem?</p>
+          
+        </div>
+      </div>
+
+    </section><!-- Our Services section added-->
+
+    <section id="Services" class="services">
+
+      <h2 class="top-padding">Our Services</h2>
+
+      <div class="our-services-grid-1">
+
+        <!-- Digital Transformation added -->
+
+        <div class="our-services-1">
+
+          <img src="images/digital.jpg" alt="iphone and computer" class="images">
+
+          <div class="container-box">
+
+            <h3>Digital Transformation</h3>
+
+            <p class="info">Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
+
+            <button class="button-2">Digital Plans</button>
+
+
+          </div>
+
+        </div><!-- Marketting section added-->
+
+
+        <div class="our-services-1">
+
+
+          <img src="images/marketing.jpg" alt="marketing" class="images">
+
+
+          <div class="container-box">
+
+
+            <h3>Marketing</h3>
+
+
+            <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eligendi minima deserunt dignissimos ab laboriosam sed sapiente aperiam officia tempore fugit soluta deleniti velit eum a, recusandae, aliquid sit minus. Lorem ipsum dolor sit amet.</p>
+
+            <button class="button-2">Marketing Plans
+
+            </button>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="our-services-grid-2">
+
+        <!-- Video Production -->
+
+
+
+        <div class="our-services-2">
+
+          <img src="images/video.jpg" alt="sartphone">
+
+          <div class="container-box">
+
+            <h3>Video Production</h3>
+
+            <p class="info-2">LLorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?
+
+            </button>
+
+          </div>
+
+        </div>
+        
+        <div class="our-services-2">
+
+
+          <img src="images/web.jpg" alt="iphone on paper">
+
+          <div class="container-box">
+
+            <h3>Web Development</h3>
+
+            <p class="info">Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?
+            </p>
+            
+            <button class="button-2">Web Plans</button>
+
+
+          </div>
+        </div><!-- Newspaper distribuor added-->
+
+        <div class="our-services-2">
+
+          <img src="images/print.jpg" alt="newspaper distributor">
+
+          <div class="container-box">
+
+            <h3>Print</h3>
+
+
+            <p class="info-2">Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
+
+            <button class="button-2">Print Plans</button>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- Our Vision added-->
+
+    <section class="our-vision">
+
+      <div class="our-vision-container">
+
+        <img src="images/vision.jpg" alt="boats" class="vision-image">
+
+        <div class="our-vision-text">
+
+          <h3>Our Vision</h3>
+
+
+          <p class="vision-paragraph">Lorem ipsum dolor sit amet consectetur adipiscing elit. Ex voluptatem deleniti lure, sit, accusantium rerum est commodi veniam tempora perspiciatis nobis officiis fagiat eaque. Veritatis exercitationem delectus ex ab laudantium.</p>
+        
+        <button class="vision-button">Learn More>
+
+        </button>
+
+        </div>
+
+      </div>
+
+    </section><!-- Our Team added-->
+
+
+    <section id="Team" class="team">
+
+
+      <h2 class="h2-team">Our Team</h2>
+
+
+      <div class="our-team-grid">
+
+
+        <!-- John Doe added -->
+
+
+        <div class="our-team"><img src="images/john.jpg" alt="john-doe">
+        </div>
+
+        <div class="our-team">
+
+          <div class="word-padding">
+              
+            <h3 class="our-team-h3">John Doe</h3>
+
+
+            <h4>CEO and Co-owner</h4>
+
+
+            <hr class="horizontal">
+
+
+            <p class="our-team-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui consectetur accusantium at inventore vel. Odio illo quis molestiae laudantium voluptatem, iure porro dolores nemo expedita cumque debitis consequuntur quidem.</p>
+          </div>
+
+
+        </div><!-- Bob Rite added -->
+
+
+        <div class="our-team"><img src="images/bob.jpg" alt="bob" ></div>
+
+        <div class="our-team">
+
+          <div class="word-padding">
+
+            <h3 class="our-team-h3">Bob Rite</h3>
+
+            <h4>CFO and Co-owner</h4>
+
+            <hr class="horizontal">
+
+            <p class="our-team-text">Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet, aspernatur ratione sed cum ad officiis sint comque fugiat similique. Earum laudantium deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora.</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- Contact Us added -->
+
+    <section id="Contact" class="contact-us-1">
+        
+      <h2 class="contact-us-text">Contact us</h2>
+
+      <div class="contact-us-grid">
+
+        <div class="contact-us">
+
+          <h3>Send us a message</h3>
+
+
+
+          <form action="send">
+
+            <div class="message-padding">
+
+              <p class="text-padding"><label for="fullname" class="name">Full Name</label></p><input type="text" id="fullname" name="fullname">
             </div>
 
-            <div class="nav-container">
-                <form action="send" class="form">
-                    <input type="text" id="name" name="fullname" placeholder="Search" class="search-bar">
-                    <button type="submit" class="magnify-button">
-                        <i class="im im-magnifier"></i>
-                    </button>
-                </form>
+            <div class="message-padding">
+
+              <p class="text-padding"><label for="youremail" class="email">Email</label></p><input type="email" id="youremail" name="youremail">
             </div>
-        </div>      
-        </header>
 
-        <!-- Banner section  and Text added -->
+            <div class="message-padding">
 
-        <section class="banner-container">
-            <div class="banner">
-                <h1>Welcome to Three Star Media</h1>
-                <p class="intro-text">
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit. Magnam rerum voluptas nesciunt quam nostrum similique nihil laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto consequuntur! 
-                </p>
-                <button class="connect-with-us"> Connect with us
-                    <i class="im im-care-right"></i>
-                </button>
+              <p class="text-padding"><label for="message" class="message">Message</label></p>
+
+              <textarea name="message" id="message" class="message-box"></textarea>
+
             </div>
-            <img src="images/main-banner.jpg" alt="Conference room" class="main-banner">
-        </section>
 
-        <!-- About us section added -->
+            <div class="button-padding">
 
-        <section class="about-us" id="About">
-            <div class="about-us-grid">
-                <div class="about-grid">
-                    <img src="images/about-us.jpg" alt="Common Area" class="common-area">
-                </div>
-                <div class="about-grid">
-                    <h2 class="h2-about">About Us</h2>
-                    <p class="about-us-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo soluta enim id, omnis praesentium illum delectus neque blanditiis assumenda quis sunt a hic nemo ea illo voluptas quibusdam recusandae? Quia?
-                    </p>
-                    <p class="about-us-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptates, quia modi earum dolores minus fuga itaque veritatis laboriosam rem ad distinctio dolore optio nesciunt. Perferendis est aspernatur veniam harum!
-                    </p>
-                </div>
+              <button class="send-button">Send</button>
+
             </div>
-            </section>
-    </main>
+
+          </form>
+
+        </div><!-- Hours of Operation added-->
+
+
+        <div class="contact-us">
+
+          <section class="hours-operation">
+
+            <div>
+
+              <h3 class="contact-us-h3">Hours of operation</h3>
+
+              <table>
+
+
+                <tr>
+
+                  <th>Days</th>
+                  <th>Hours</th>
+
+                </tr>
+
+                <tr>
+
+                  <td>Monday - Friday</td>
+                  
+                  <td>9 AM - 6 PM</td>
+                </tr>
+                <tr>
+                  <td>Saturday - Sunday</td>
+
+                  <td>Closed</td>
+
+                </tr>
+
+              </table>
+
+            </div
+            >
+          </section>
+
+        </div>
+        <!-- google map added  -->
+
+
+        <div class="contact-us">
+
+          <section class="google-map">
+
+
+            <h3 class="contact-us-h3">Location</h3><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11216.156593565904!2d-75.7569228!3d45.348022!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0722395fc63d%3A0x35c46b5ff47a522!2sAlgonquin%20College%2C%201385%20Woodroffe%20Ave%2C%20Nepean%2C%20ON%20K2G%203G7!5e0!3m2!1sen!2sca!4v1606684016433!5m2!1sen!2sca" width="600" height="450"  style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="map"></iframe>
+          </section>
+
+        </div>
+
+      </div>
+
+    </section><!-- Footer added -->
+
+    <footer>
+      <div class="container">
+
+        <p class="footer-size">© Copyright Three Star Media, 2021</p>
+        
+        <p class="footer-size">All images are taken from <a href="https://unsplash.com">Unsplash</a></p>
+      </div>
+    </footer>
+  </main>
 </body>
+</html>
