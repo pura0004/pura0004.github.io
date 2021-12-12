@@ -48,4 +48,18 @@ table {
 }
 /* -----------css reset added--------------*/
 
+/* -----------web page css start--------------*/
+body {
+	font: 16px;
+	margin: 0 auto;
+	font-family: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	}
+
+h1 {
+	padding-top: 20px;
+	line-height: 1.5;
+	font-size: 3.5rem;
+	font-weight: 700;
+	margin: 25px 0 25px 10px;
+}
 
