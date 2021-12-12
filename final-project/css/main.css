@@ -258,3 +258,104 @@ nav form input {
 	width: 100%;
 }
 
+.contact div form input {
+	margin: 10px 0 10px 0;
+	height: 30px;
+
+}
+
+.contact div form textarea {
+
+	margin: 10px 0 20px 0;
+	padding-right: 10px;
+	resize: none;
+}
+
+.contact div form button {
+	padding:5px;
+	color: #c78c06;
+	font-size: 1.25rem;
+	margin:0px;
+	align-self: start;
+}
+
+
+/* Table css style added */
+
+.hours {
+	margin: 10px;
+}
+
+.hours h3 {
+	margin-left: 0px;
+}
+
+table {
+	width: 100%;
+}
+table, th, td {
+	border: 1px solid black;
+	padding: 15px;
+}
+
+th {
+	background-color: #ffe6ac;
+}
+
+
+/* location css style added*/
+
+.location {
+	margin: 10px;
+}
+
+.location iframe {
+	width: 100%;
+}
+
+footer {
+	background-color: #222222;
+	color: #c78c06;
+	padding: 10px;
+}
+
+/* media queries added*/
+
+@media screen and (min-width: 760px) {
+
+	.nav-container { 
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 30px;
+	}
+
+	.logo {
+		background-color: unset;
+	}
+
+
+	.nav-container ul{ 
+		display: flex;
+		flex-grow: 1;
+		flex-direction: row;
+		justify-content: space-between;
+		margin-left: 60px;
+		margin-right: 20px;
+	}
+	
+	.nav-container ul li {
+		padding: 10px 20px;
+	}
+	
+
+	.search input {
+		width: 200px;
+	}
+}
+
+	
+
