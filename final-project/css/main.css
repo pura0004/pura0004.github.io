@@ -166,13 +166,11 @@ h1 {
     padding-bottom: 35px;
     background-color: #c78c06;
     border: none;
-    color: #000;
+    color: black;
     margin-top: 9px;
 }
 
-span {
-    font-size: 25px;
-}
+
 
 /* About us section*/
 
@@ -750,7 +748,7 @@ footer p {
         flex-basis: 49%;
         margin-right: 16px;
     }
-
+/* location map */
     .map {
         order: 2;
         flex-basis: 49%;
