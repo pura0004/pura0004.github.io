@@ -292,7 +292,7 @@ h1 {
     font-size: 22px;
     color: white;
     background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5); /* black background opacity added*/
     border: 1px solid #c78c06;
     margin-top: 13px;
     padding-left: 33px;
@@ -318,7 +318,7 @@ h1 {
 
 
 .section-team {
-    background-color: #fff;
+    background-color: white;
     padding: 14px;
 }
 
@@ -418,7 +418,7 @@ h1 {
 }
 
 .contact-form [type=submit] {
-    background-color: #222;
+    background-color: black;
     color:#c78c06;
     font-size: 22px;
     border: none;
